@@ -26,10 +26,6 @@ map.ids$description <- NULL
 # uniq gene list
 file.list <- list.files("../Spladder/01-DiffTest/testing_KO_vs_PBS_4",
                              pattern = "*.gene_unique.tsv", full.names = TRUE)
-
-# ext gene list
-file.list <- list.files("../Spladder/01-DiffTest/testing_KO_vs_PBS_4",
-                        pattern = "test_results_extended*", full.names = TRUE)
 # output directory
 out_dir = "../Spladder/01-DiffTest/testing_KO_vs_PBS_4/01-GeneID/"
 
